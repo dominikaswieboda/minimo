@@ -1,0 +1,47 @@
+.footer {
+  background: $dark-color;
+  font-size: 14px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 39px 0;
+  }
+  a {
+    color: #848484;
+  }
+  &__nav {
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-right: 15px;
+      }
+    }
+    a {
+      border: 1px solid transparent;
+      &:hover {
+        color: #000;
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+  &__socials {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-right: 15px;
+      }
+    }
+    a:hover {
+      color: #000;
+    }
+  }
+}

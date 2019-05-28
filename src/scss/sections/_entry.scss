@@ -1,0 +1,28 @@
+.entry {
+  a {
+    display: inline-block;
+  }
+  &__text {
+    margin-top: 90px;
+    margin-bottom: 131px;
+    @media (max-width: 768px) {
+      margin-bottom: 45px;
+    }
+    h3 {
+      @media (max-width: 480px) {
+        font-size: 27px;
+      }
+    }
+    .lead {
+      padding: 31px 0 42px 0;
+    }
+    h3:hover {
+      color: #000;
+      border-bottom: 1px solid black;
+    }
+    h6:last-child:hover {
+      color: #000;
+      border-bottom: 1px solid black;
+    }
+  }
+}
